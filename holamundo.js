@@ -25,3 +25,5 @@ var Esfera = /** @class */ (function () {
     };
     return Esfera;
 }());
+var esfera = new Esfera(10);
+console.log(esfera.volumen().toString());

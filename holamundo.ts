@@ -35,3 +35,6 @@ class Esfera {
     return this.radio * 2;
   }
 }
+
+let esfera = new Esfera(10);
+console.log(esfera.volumen().toString());
