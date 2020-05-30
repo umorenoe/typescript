@@ -12,7 +12,7 @@ function createSquare(configSquare) {
     return { color: color, area: area };
 }
 var square = createSquare({ color: "Green", width: 100 });
-console.log(square.area.toString());
+console.log("Area del cuadrado: ", square.area.toString());
 var Esfera = /** @class */ (function () {
     function Esfera(radio) {
         this.radio = radio;
@@ -26,4 +26,4 @@ var Esfera = /** @class */ (function () {
     return Esfera;
 }());
 var esfera = new Esfera(10);
-console.log(esfera.volumen().toString());
+console.log("Volumen: ", esfera.volumen().toString());

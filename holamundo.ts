@@ -21,7 +21,7 @@ function createSquare(configSquare:SquareConfig): {color: string, area: number} 
 }
 
 let square = createSquare({color: "Green", width: 100});
-console.log(square.area.toString());
+console.log("Area del cuadrado: ", square.area.toString());
 
 class Esfera {
   radio: number;
@@ -37,4 +37,4 @@ class Esfera {
 }
 
 let esfera = new Esfera(10);
-console.log(esfera.volumen().toString());
+console.log("Volumen: ", esfera.volumen().toString());
