@@ -13,3 +13,15 @@ function createSquare(configSquare) {
 }
 var square = createSquare({ color: "Green", width: 100 });
 console.log(square.area.toString());
+var Esfera = /** @class */ (function () {
+    function Esfera(radio) {
+        this.radio = radio;
+    }
+    Esfera.prototype.volumen = function () {
+        return 4 / 3 * (3.1416 * Math.pow(this.radio, 3));
+    };
+    Esfera.prototype.diametro = function () {
+        return this.radio * 2;
+    };
+    return Esfera;
+}());
